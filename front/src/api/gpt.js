@@ -1,5 +1,4 @@
 export const callGPT = async ({prompt}) => {
-  console.log("👉 callGPT 함수 실행");
 
 
   const messages = [
@@ -73,7 +72,6 @@ export const callGPT = async ({prompt}) => {
   const responseData = await response.json();
 
   const messsage = responseData.choices[0].message.content;
-  console.log("👉 callGPT responseData", messsage);
 
   return messsage;
 };
