@@ -36,6 +36,7 @@ const App = () => {
       
       setData(JSON.parse(message)); // fetch() 로 인해 JSON 형태로 받았고 -> GPT 프롬프트에 JSON 으로 넣으라고 해서 또 다시 parse 해줌
       
+      // parsing 테스트 용
       // parsing 없이 해보자 : JSON.parse 가 없으니까 -> js 객체로써 작동이 안 되고 -> 화면에 안 찍히는 것 같음
       // setData(message); // fetch() 로 인해 JSON 형태로 받았고 -> GPT 프롬프트에 JSON 으로 넣으라고 해서 또 다시 parse 해줌
 
