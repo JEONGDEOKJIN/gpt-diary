@@ -58,7 +58,8 @@ const App = () => {
   };
 
   // data 가 JSON 형태 이기 때문에, KEY VALUE 형태로 잘 나옴
-  // console.log("data", data);
+  // console.log("data", data)
+
 
   return (
     <>
