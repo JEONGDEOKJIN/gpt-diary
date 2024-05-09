@@ -6,6 +6,7 @@ import logo from "./assets/logo.png";
 import DiaryDisplay from "./components/DiaryDisplay";
 import { message } from "antd";
 
+// dummy data TEST
 // const dummyData = JSON.parse(
 //   `{
 //     "title": "피곤하지만, 잘 해보고 싶다",
